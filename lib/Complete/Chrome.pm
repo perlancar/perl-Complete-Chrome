@@ -23,6 +23,7 @@ $SPEC{':package'} = {
 
 $SPEC{complete_chrome_profile_name} = {
     v => 1.1,
+    summary => 'Complete from a list of Google Chrome profile names',
     args => {
         word => {
             schema => 'str*',
